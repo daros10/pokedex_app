@@ -1,0 +1,43 @@
+.CardPokemonContainer {
+  grid-area: CardPokemonContainer;
+  display: grid;
+  grid-template-areas: "pokemonItem pokemonItem";
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  gap: 1em;
+  padding: 1em;
+  border: 2px solid #fafafa;
+  border-radius: 8px;
+}
+
+.CardPokemonItem {
+  border: 2px solid #fafafa;
+  border-radius: 12px;
+  text-align: center;
+  background-position: center;
+  transition: background 0.8s;
+  padding-top: 70px;
+}
+
+.CardPokemonItem:hover {
+  cursor: pointer;
+  background: transparent radial-gradient(circle, transparent 1%, #fafafa 1%)
+    center/19000%;
+}
+
+.CardPokemonItem:active {
+  background-color: transparent;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.PokemonImage {
+  width: auto;
+  height: 120px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.PokemonInformation {
+  color: #fafafa;
+}

@@ -1,0 +1,51 @@
+.FooterActionsContainer {
+  grid-area: FooterActionsContainer;
+  display: grid;
+  grid-template-areas: "CustomButton CustomButton";
+  grid-template-columns: auto auto;
+  gap: 4em;
+  justify-content: space-between;
+}
+
+.LeftSpanIcon {
+  padding-left: 8px;
+}
+
+.RightSpanIcon {
+  padding-right: 8px;
+}
+
+.Ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.Ripple:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000%;
+}
+
+.Ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+
+.DisabledButton {
+  background-color: #999999;
+  opacity: 0.5;
+  cursor: auto;
+}

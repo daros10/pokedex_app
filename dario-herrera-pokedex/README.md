@@ -14,7 +14,7 @@ Type the comando to start project
 ```
 $ npm start
 ```
-App will run on locallhost:3000 
+App will run on locallhost:3000
 ## Running Remotely
 The application is deployed at the following link.
 * [Pokedex App]
@@ -24,5 +24,5 @@ The application is deployed at the following link.
 ## Author
 ***Dario Herrera***
 
-   [Pokedex App]: <https://jolly-centaur-8e256f.netlify.app/>
+[Pokedex App]: <https://jolly-centaur-8e256f.netlify.app/>
 

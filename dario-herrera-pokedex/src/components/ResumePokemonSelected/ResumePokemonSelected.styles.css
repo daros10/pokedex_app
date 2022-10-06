@@ -1,0 +1,117 @@
+.ResumePokemonSelectedContainer {
+  grid-area: ResumePokemonSelectedContainer;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 20px;
+  margin: 5px;
+  gap: 1em;
+  border: 2px solid #fafafa;
+  border-radius: 8px;
+}
+
+.CenterContent {
+  text-align: center;
+}
+
+.PokemonSelectedImage {
+  padding-top: 20px;
+  width: 220px;
+  height: 220px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom: 2px solid #fafafa;
+  border-left: 2px solid #fafafa;
+  border-right: 2px solid #fafafa;
+}
+
+.GridBasicInformation {
+  display: grid;
+  grid-template-areas:
+    "Id"
+    "Name";
+  justify-content: center;
+}
+
+.Id {
+  grid-area: Id;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.Name {
+  grid-area: Name;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.GridTypeInformation {
+  display: grid;
+  grid-template-areas:
+    "Type Type Type Type"
+    "OneType OneType OneType OneType";
+  column-gap: 1em;
+  row-gap: 0.5em;
+  grid-template-columns: repeat(4, 20%);
+}
+
+.GridSprites {
+  display: grid;
+  grid-template-areas:
+    "Type Type Type Type"
+    "OneType OneType OneType OneType";
+  column-gap: 1em;
+  row-gap: 0.5em;
+  grid-template-columns: repeat(4, 15%);
+}
+
+.Type {
+  grid-area: Type;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fafafa;
+  margin-top: 12px;
+}
+
+.TypeText {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fafafa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.Sprite {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+}
+
+.GridWeight {
+  display: grid;
+  grid-template-areas:
+    "WeightTitle"
+    "WeightValue";
+  row-gap: 0.5em;
+  grid-template-columns: 15%;
+}
+
+.WeightTitle {
+  grid-area: WeightTitle;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fafafa;
+  margin-top: 12px;
+}
+
+.WeightValue {
+  grid-area: WeightValue;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fafafa;
+  border-radius: 8px;
+  text-align: center;
+}

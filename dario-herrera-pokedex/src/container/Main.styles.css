@@ -1,0 +1,23 @@
+.MainTitle {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  display: grid;
+  grid-template-areas:
+    "InputSearch InputSearch"
+    "CardPokemonContainer  ResumePokemonSelectedContainer"
+    "CardPokemonContainer  ResumePokemonSelectedContainer"
+    "FooterActionsContainer  FooterActionsContainer";
+  gap: 3em;
+  column-gap: 9em;
+  padding: 2em;
+  grid-template-rows: 40px auto;
+  grid-template-columns: 50% auto;
+}
+
+.SpinnerContainer {
+  padding-bottom: 12px;
+}
